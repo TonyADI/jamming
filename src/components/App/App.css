@@ -1,6 +1,4 @@
-body,
-html,
-#root {
+body, html, #root {
   height: 100%;
 }
 
@@ -8,16 +6,28 @@ html {
   font-size: 18px;
 }
 
-h1 {
-  padding: .77rem 0;
+.top-header {
+  padding: 10px 0;
   background-color: #010c3f;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.88rem;
   color: #fff;
 }
 
-h1 .highlight {
+.zero-margin{
+  margin: 0px !important;
+}
+
+.greeting{
+  margin: 0px auto !important;
+  padding-top: 100px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400 !important;
+  font-size: 2.5em;
+}
+
+.top-header .highlight {
   color: #6c41ec;
 }
 
@@ -29,7 +39,7 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-image: url('./background_photo_desktop.jpg');
+  background-image: url('./background.jfif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,4 +59,11 @@ h2 {
     align-items: center;
     flex-direction: column;
   }
+}
+
+#text-background{
+  background-image: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }

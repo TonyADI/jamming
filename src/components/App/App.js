@@ -51,8 +51,12 @@ class App extends React.Component {
   render() {
     return (
         <div>
-          <h1>Jus<span className="highlight">tDa</span>nce</h1>
+          <div className="top-header">
+            <h1 className="zero-margin">Ja<span className="highlight">mmm</span>ing</h1>
+            </div>
           <div className="App">
+            <h1 className="greeting">Create your own <span id="text-background">
+              personalized</span> Spotify playlist</h1>
             <SearchBar onSearch={this.search}/>
             <div className="App-playlist">
               <SearchResults onAdd={this.addTrack} searchResults={this.state.searchResults}/>
