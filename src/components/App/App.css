@@ -43,6 +43,7 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   color: #fff;

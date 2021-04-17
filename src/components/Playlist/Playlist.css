@@ -8,6 +8,8 @@
   padding: 2.27rem 1.16rem;
   background-color: rgba(1, 12, 63, 0.7);
   box-shadow: 1px 1px 10px #000000;
+  border: 0;
+  border-radius: 5px;
 }
 
 .Playlist input {

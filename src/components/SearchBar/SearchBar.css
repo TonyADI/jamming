@@ -41,7 +41,7 @@
 }
 
 .SearchButton:hover {
-  background-color: rgba(108, 65, 233, .7);
+  background-color: #253a9b;
 }
 
 .input-container{
@@ -52,4 +52,14 @@
 
 .input-container input{
   border: 0px;
+}
+
+@media screen and (max-width: 670px){
+  .input-container{
+    max-height: 40px;
+  }
+
+  .SearchBar input{
+    width: auto;
+  }
 }
